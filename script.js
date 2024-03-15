@@ -9,7 +9,7 @@ for( let i=1 ; i <= 50; i++){
 document.querySelector(".bottom").innerHTML = clutter;
 }
 
-var score = 0;
+var score = 60;
 function scored () {
     score += 10;
     document.querySelector("#scoreval").textContent = score;
