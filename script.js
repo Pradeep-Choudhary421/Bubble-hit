@@ -9,13 +9,13 @@ for( let i=1 ; i <= 50; i++){
 document.querySelector(".bottom").innerHTML = clutter;
 }
 
-var score = 60;
+var score = 0;
 function scored () {
     score += 10;
     document.querySelector("#scoreval").textContent = score;
 
 }
-var timer = 1;
+var timer = 60;
 function runtime () {
     var timeInt = setInterval(function () {
         if (timer > 0) {
